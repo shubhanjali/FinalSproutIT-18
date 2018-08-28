@@ -9,10 +9,10 @@
     display: block;
     padding: 10px 6px;
   }
-  .scit-logo {
+  /*.scit-logo {
     height: 30px;
   }
-  .itelflogo {height: 42px; margin-top: -5px;}
+  .itelflogo {height: 42px; margin-top: -5px;}*/
   .hero__wrapper {
     padding: 0px 0 10px;
   }
@@ -132,4 +132,21 @@
     .display-only-phone{display: block;}
     }
 
-    
+ /******************************************************************Shubhanjali************************************/
+
+
+@media (max-width: 508px) {
+.d-none-mobile{display: none;}
+.navbar {padding: .5rem 0rem;}
+.navbar-nav {display: none; }
+.itelflogo {height: 42px;margin-top: -5px;}
+.scit-logo {height: 30px;}
+}
+
+@media (max-width: 980px) {
+.d-none-mobile{display: none;}
+.navbar {padding: .5rem 0rem;}
+.navbar-nav {display: none; }
+.itelflogo {height: 42px;margin-top: -5px;}
+.scit-logo {height: 30px; }
+}   
